@@ -1,0 +1,53 @@
+mark {
+	color: var(--text-normal);
+	padding: 0 5px !important;
+}
+
+code {
+	padding: 2px 5px;
+	background: #292827;
+	border-radius: 4px;
+	font-family: var(--font-monospace-theme);
+	font-size: 13px;
+	color: rgba(212, 76, 71, 1);
+}
+
+.gray {
+	color: rgba(151, 154, 155, 1);
+}
+
+.brown {
+	color: rgba(184, 142, 125, 1);
+}
+
+.orange {
+	color: rgba(218, 131, 45, 1);
+}
+
+.yellow {
+	color: rgba(214, 180, 27, 1);
+}
+
+.green {
+	color: rgb(66, 189, 121);
+}
+
+.cyan {
+	color: rgb(38, 207, 193);
+}
+
+.blue {
+	color: rgba(46, 144, 201, 1);
+}
+
+.purple {
+	color: rgba(154, 109, 215, 1);
+}
+
+.pink {
+	color: rgba(226, 85, 161, 1);
+}
+
+.red {
+	color: rgba(212, 76, 71, 1);
+}

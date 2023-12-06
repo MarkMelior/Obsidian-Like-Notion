@@ -1,0 +1,36 @@
+body {
+	/* --font-text-theme: "Inter"; */
+	--font-monospace-theme: 'Inter';
+	/* --font-interface-theme: "Inter"; */
+	--code-background: #292827;
+	--line-spacing-padding-top: 0.4em;
+}
+
+.theme-dark {
+	--background-primary: #191919;
+	--background-secondary: #252525;
+}
+
+// межстрочный интервал
+.outliner-plugin-better-lists .cm-s-obsidian .HyperMD-list-line {
+	padding-top: var(--line-spacing-padding-top);
+}
+
+// ---
+.markdown-source-view.mod-cm6 .cm-content>[contenteditable=false] {
+	max-height: 1px;
+	position: relative;
+	margin: 15px 0 !important;
+}
+
+// (...) в конце выпадающего списка
+.markdown-source-view.mod-cm6 .cm-foldPlaceholder {
+	// color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 0);
+}
+
+// плагин outliner при наведении
+body.outliner-plugin-dnd:not(.outliner-plugin-dragging) .cm-formatting-list,
+body.outliner-plugin-dnd:not(.outliner-plugin-dragging) .cm-fold-indicator .collapse-indicator {
+	cursor: pointer !important;
+}
