@@ -5,7 +5,7 @@ This is a plugin for [Obsidian](https://obsidian.md)
 If you are used to Notion, but want to try Obsidian, then this fragment is for you! It adds styles and decoration, just like in Notion!
 
 ![](https://github.com/MarkMelior/Obsidian-Like-Notion/blob/master/public/screen_1.png)
-![](https://github.com/MarkMelior/Obsidian-Like-Notion/blob/master/public/screen_3.png)
+![](https://github.com/MarkMelior/Obsidian-Like-Notion/blob/master/public/screen_2.png)
 
 ## How to install
 
