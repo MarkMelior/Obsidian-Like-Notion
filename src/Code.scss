@@ -8,10 +8,14 @@ code,
 .cm-inline-code {
 	padding: 2px 5px !important;
 	background: #292827 !important;
-	border-radius: 4px !important;
+	border-radius: 4px;
 	font-family: var(--font-monospace-theme) !important;
 	font-size: 13px !important;
 	color: rgba(212, 76, 71, 1);
+}
+
+.cm-formatting-code {
+	padding: 2px 0 !important;
 }
 
 .gray {
