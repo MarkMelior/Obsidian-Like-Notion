@@ -4,6 +4,8 @@ body {
 	/* --font-interface-theme: "Inter"; */
 	--code-background: #292827;
 	--line-spacing-padding-top: 0.4em;
+	// --titlebar-background-focused: #ff3333;
+	// --titlebar-background: #ff3333;
 }
 
 .theme-dark {
@@ -34,3 +36,23 @@ body.outliner-plugin-dnd:not(.outliner-plugin-dragging) .cm-formatting-list,
 body.outliner-plugin-dnd:not(.outliner-plugin-dragging) .cm-fold-indicator .collapse-indicator {
 	cursor: pointer !important;
 }
+
+// .is-hidden-frameless:not(.is-fullscreen).is-focused .titlebar-button-container.mod-right {
+// 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+// 	background-size: 400% 400%;
+// 	animation: gradient 10s ease infinite;
+// }
+
+// @keyframes gradient {
+// 	0% {
+// 		background-position: 0% 50%;
+// 	}
+
+// 	50% {
+// 		background-position: 100% 50%;
+// 	}
+
+// 	100% {
+// 		background-position: 0% 50%;
+// 	}
+// }

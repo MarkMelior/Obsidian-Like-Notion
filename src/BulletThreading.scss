@@ -2,8 +2,42 @@ body {
 	--outline-guideline-width: var(--size-2-1);
 	--list-threading-offset: calc(7px + <n> * 39.5px);
 	--list-indent: 15px;
-	--opacity-lines: 0.5;
+	--opacity-lines: 1;
+
+	--outline-guideline-color: var(--color-accent);
+	--outline-item-height: calc(var(--nav-item-size) * 1.8);
+	/*active color*/
+	--accent-active: hsl(var(--accent-h),
+			var(--accent-s),
+			calc(var(--accent-l) + 4%));
 }
+
+li {
+	position: relative;
+}
+
+li:hover>ul>li:has(~li:hover)::before {
+	content: "";
+	width: var(--outline-guideline-width);
+	position: absolute;
+	background-color: var(--outline-guideline-color);
+	top: calc(var(--outline-item-height) / 2 * -1);
+	left: calc(2px - 2em - var(--size-2-1));
+	height: calc(100% - var(--outline-item-height) + var(--size-4-8) + 2px);
+}
+
+li:hover>ul>li:hover::before {
+	content: "";
+	position: absolute;
+	top: calc(var(--outline-item-height) / 2 * -1);
+	left: calc(2px - 2em - var(--size-2-1));
+	bottom: calc(100% - (var(--outline-item-height) + var(--size-4-2)) / 2 + 1px);
+	width: calc(1em + var(--size-2-1) - 2px);
+	border-bottom-left-radius: var(--radius-m);
+	border-bottom: var(--outline-guideline-width) solid var(--outline-guideline-color);
+	border-left: var(--outline-guideline-width) solid var(--outline-guideline-color);
+}
+
 
 .HyperMD-list-line-1:not(:has(~ .HyperMD-list-line-1 ~ .HyperMD-list-line:hover)):has(~ :is(.HyperMD-list-line-6,
 		.HyperMD-list-line-5,
