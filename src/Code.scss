@@ -3,12 +3,14 @@ mark {
 	padding: 0 5px !important;
 }
 
-code {
-	padding: 2px 5px;
-	background: #292827;
-	border-radius: 4px;
-	font-family: var(--font-monospace-theme);
-	font-size: 13px;
+
+code,
+.cm-inline-code {
+	padding: 2px 5px !important;
+	background: #292827 !important;
+	border-radius: 4px !important;
+	font-family: var(--font-monospace-theme) !important;
+	font-size: 13px !important;
 	color: rgba(212, 76, 71, 1);
 }
 
