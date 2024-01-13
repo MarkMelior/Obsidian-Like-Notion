@@ -57,7 +57,8 @@ li:hover>ul>li:hover::before {
 	--list-threading-color: var(--color-accent);
 	opacity: var(--opacity-lines);
 	// --list-threading-color: rgba(230, 88, 0, var(--opacity-lines));
-	--list-threading-offset: calc(5px + 0.15em);
+	// * CHANGE
+	--list-threading-offset: calc(15px + 0.15em);
 }
 
 .HyperMD-list-line-2:not(:has(~ .HyperMD-list-line-2 ~ .HyperMD-list-line:hover)):has(~ :is(.HyperMD-list-line-6,
@@ -74,7 +75,8 @@ li:hover>ul>li:hover::before {
 			.HyperMD-list-line-6):hover))::before {
 	--list-threading-color: hsl(46, 100%, 45%);
 	opacity: var(--opacity-lines);
-	--list-threading-offset: calc(5px + 0.15em + var(--list-indent));
+	// * CHANGE
+	--list-threading-offset: calc(15px + 0.15em + var(--list-indent));
 }
 
 .HyperMD-list-line-3:not(:has(~ .HyperMD-list-line-3 ~ .HyperMD-list-line:hover)):has(~ :is(.HyperMD-list-line-6,
@@ -86,7 +88,8 @@ li:hover>ul>li:hover::before {
 	:has(~ :is(.HyperMD-list-line-5, .HyperMD-list-line-6):hover))::before {
 	--list-threading-color: hsl(70, 100%, 45%);
 	opacity: var(--opacity-lines);
-	--list-threading-offset: calc(5px + 0.15em + 2 * var(--list-indent));
+	// * CHANGE
+	--list-threading-offset: calc(15px + 0.15em + 2 * var(--list-indent));
 }
 
 .HyperMD-list-line-4:not(:has(~ .HyperMD-list-line-4 ~ .HyperMD-list-line:hover)):has(~ :is(.HyperMD-list-line-6, .HyperMD-list-line-5):hover)::after,
@@ -95,7 +98,8 @@ li:hover>ul>li:hover::before {
 .HyperMD-list-line-5:not(:has(~ .HyperMD-list-line-5 ~ .HyperMD-list-line:hover)):is(:hover, :has(~ :is(.HyperMD-list-line-6):hover))::before {
 	--list-threading-color: hsl(105, 100%, 45%);
 	opacity: var(--opacity-lines);
-	--list-threading-offset: calc(5px + 0.15em + 3 * var(--list-indent));
+	// * CHANGE
+	--list-threading-offset: calc(15px + 0.15em + 3 * var(--list-indent));
 }
 
 .HyperMD-list-line-5:not(:has(~ .HyperMD-list-line-5 ~ .HyperMD-list-line:hover)):has(~ :is(.HyperMD-list-line-6):hover)::after,
@@ -103,7 +107,8 @@ li:hover>ul>li:hover::before {
 .HyperMD-list-line-6:not(:has(~ .HyperMD-list-line-6 ~ .HyperMD-list-line:hover)):is(:hover)::before {
 	--list-threading-color: hsl(187, 100%, 45%);
 	opacity: var(--opacity-lines);
-	--list-threading-offset: calc(4px + 0.15em + 4 * var(--list-indent));
+	// * CHANGE
+	--list-threading-offset: calc(14px + 0.15em + 4 * var(--list-indent));
 }
 
 /* tails */
